@@ -39,21 +39,30 @@ Para quem é este curso:
   <h2>Configuraçõa Global do Git</h2>
     <a>
   + git config --global user.name"name"
+
   + git config --global user.email"email"</a>
 
    <h2>Criar novo repositório</h2>
     <a>
   + git add * | " para adicionar todos os conteúdo "
+
   + git commit -m "comentário" 
+
   + git pus - u origin master 
+
     <i>o primeiro repositório é ciado com o usuário master</i> </a>  
     <h2>Clone repositório</h2>
     <a>
   + git clone https:// .
+
   + cd pasta  | " Na pasta do clone ".
+
   + git add * | " para adicionar todos os conteúdo ".
+
   + git commit -m "comentário" .
+
   + git pus - u origin "dev" ou "master"| "se diver o branch como master dev".
+  
     </a>
     <h1> 1 - Como criar uma nova branch</h1>
     <h5> 2 - Clique na botão no topo escrito "branch:master"</h5>
@@ -74,4 +83,5 @@ Para quem é este curso:
   + git add * | " para adicionar todos os conteúdo ".
   + git commit -m "comentário" .
   + git pus - u origin  origin/"readme-edits"| "se diver o branch como master dev".
+  + git push origin HEAD:<name-of-remote-branch>
     </a>
