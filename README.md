@@ -38,26 +38,50 @@ Para quem é este curso:
 
   <h2>Configuraçõa Global do Git</h2>
     <a>
-    - git config --global user.name"name"
-    - git config --global user.email"email"</a>
+  + git config --global user.name"name"
+
+  + git config --global user.email"email"</a>
 
    <h2>Criar novo repositório</h2>
     <a>
   + git add * | " para adicionar todos os conteúdo "
+
   + git commit -m "comentário" 
+
   + git pus - u origin master 
+
     <i>o primeiro repositório é ciado com o usuário master</i> </a>  
     <h2>Clone repositório</h2>
     <a>
-  + git clone https:// 
-  + cd pasta  | " Na pasta do clone "
-  + git add * | " para adicionar todos os conteúdo "
-  + git commit -m "comentário" 
-  + git pus - u origin "dev" ou "master"| "se diver o branch como master dev"
+  + git clone https:// .
+
+  + cd pasta  | " Na pasta do clone ".
+
+  + git add * | " para adicionar todos os conteúdo ".
+
+  + git commit -m "comentário" .
+
+  + git pus - u origin "dev" ou "master"| "se diver o branch como master dev".
+  
     </a>
     <h1> 1 - Como criar uma nova branch</h1>
     <h5> 2 - Clique na botão no topo escrito "branch:master"</h5>
     <h5> 3 - Adiciona um nome na descrição :ex readme-edits</h5>
     <h5> 4 - Seleciona o campo azul na Caixa branch</h5>
-    https://guides.github.com/activities/hello-world/readme-edits.gif
-    <a>Agora você tem dois ramos mastere readme-edits. Eles parecem exatamente o mesmo, mas não por muito tempo! Em seguida, adicionaremos nossas alterações à nova ramificação.</a>
+<a>Agora você tem dois ramos mastere e ex readme-edits . Eles parecem exatamente o mesmo, mas não por muito tempo! Em seguida, adicionaremos nossas alterações à nova ramificação.</a>
+
+# Vamos lá como fazer commit na sua Branch:master
+<h1>command line</h1>
+<a>
+
+  + git checkout origin/readme-edits . ira aparece uma mesagem assim:
+  HEAD is now at 8a57281 v.1.0
+    M       README.md
+    
+  + cd pasta  | " Na pasta do clone ".
+  + git init 
+  + git add * | " para adicionar todos os conteúdo ".
+  + git commit -m "comentário" .
+  + git pus - u origin  origin/"readme-edits"| "se diver o branch como master dev".
+  + git push origin HEAD:<name-of-remote-branch>
+    </a>
