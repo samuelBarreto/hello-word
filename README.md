@@ -60,3 +60,18 @@ Para quem é este curso:
     <h5> 3 - Adiciona um nome na descrição :ex readme-edits</h5>
     <h5> 4 - Seleciona o campo azul na Caixa branch</h5>
 <a>Agora você tem dois ramos mastere e ex readme-edits . Eles parecem exatamente o mesmo, mas não por muito tempo! Em seguida, adicionaremos nossas alterações à nova ramificação.</a>
+
+# Vamos lá como fazer commit na sua Branch:master
+<h1>command line</h1>
+<a>
+
+  + git checkout origin/readme-edits . ira aparece uma mesagem assim:
+  HEAD is now at 8a57281 v.1.0
+    M       README.md
+    
+  + cd pasta  | " Na pasta do clone ".
+  + git init 
+  + git add * | " para adicionar todos os conteúdo ".
+  + git commit -m "comentário" .
+  + git pus - u origin  origin/"readme-edits"| "se diver o branch como master dev".
+    </a>
