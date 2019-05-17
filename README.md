@@ -59,7 +59,4 @@ Para quem é este curso:
     <h5> 2 - Clique na botão no topo escrito "branch:master"</h5>
     <h5> 3 - Adiciona um nome na descrição :ex readme-edits</h5>
     <h5> 4 - Seleciona o campo azul na Caixa branch</h5>
-<h5>Descrição</h5>
-    (https://guides.github.com/activities/hello-world/readme-edits.gif)
-
-    <a>Agora você tem dois ramos mastere readme-edits. Eles parecem exatamente o mesmo, mas não por muito tempo! Em seguida, adicionaremos nossas alterações à nova ramificação.</a>
+<a>Agora você tem dois ramos mastere e ex readme-edits . Eles parecem exatamente o mesmo, mas não por muito tempo! Em seguida, adicionaremos nossas alterações à nova ramificação.</a>
